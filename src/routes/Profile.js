@@ -1,2 +1,2 @@
-const Profile = () => <div>Profile page</div>;
+const Profile = () => <div>Profile page; comming soon...</div>;
 export default Profile;
