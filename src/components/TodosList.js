@@ -24,7 +24,7 @@ TodosList.propTypes = {
       id: PropTypes.number.isRequired,
       title: PropTypes.string.isRequired,
       completed: PropTypes.bool.isRequired,
-    })
+    }),
   ).isRequired,
   handleChange: PropTypes.func.isRequired,
   delTodo: PropTypes.func.isRequired,
