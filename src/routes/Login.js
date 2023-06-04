@@ -21,8 +21,8 @@ const Login = () => {
           />
           <button>Login</button>
         </form>
-        <a href={'https://ibaslogic.com/routing-with-react-router/#adding-a-login-form'}>
-            continue
+        <a href="https://ibaslogic.com/routing-with-react-router/#adding-a-login-form">
+          continue
         </a>
       </div>
     </div>
