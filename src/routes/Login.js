@@ -5,8 +5,8 @@ const Login = () => {
   const [username, setUsername] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!username) return;
-    console.log(username);
+    // if (!username) return;
+    // console.log(username);
   };
   return (
     <div>
@@ -19,7 +19,7 @@ const Login = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
-          <button>Login</button>
+          <button type="button">Login</button>
         </form>
         <a href="https://ibaslogic.com/routing-with-react-router/#adding-a-login-form">
           continue

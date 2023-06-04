@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FaTrash } from 'react-icons/fa';
 import { AiFillEdit } from 'react-icons/ai';
 import styles from '../styles/TodoItem.module.css';
@@ -37,16 +38,17 @@ const TodoItem = ({
           checked={itemProp.completed}
           onChange={() => handleChange(itemProp.id)}
         />
-        <button onClick={handleEditing}>
+        <button onClick={handleEditing} type="button">
           <AiFillEdit style={{ color: '#5e5e5e', fontSize: '16px' }} />
+          <span style={{ display: 'none' }}>Edit</span>
         </button>
-        <button onClick={() => delTodo(itemProp.id)}>
+        <button onClick={() => delTodo(itemProp.id)} type="button">
           <FaTrash style={{ color: '#5e5e5e', fontSize: '16px' }} />
+          <span style={{ display: 'none' }}>Delete</span>
         </button>
         <span style={itemProp.completed ? completedStyle : null}>
           {itemProp.title}
         </span>
-
       </div>
       <input
         type="text"
@@ -59,4 +61,16 @@ const TodoItem = ({
     </li>
   );
 };
+
+TodoItem.propTypes = {
+  itemProp: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    completed: PropTypes.bool.isRequired,
+  }).isRequired,
+  handleChange: PropTypes.func.isRequired,
+  delTodo: PropTypes.func.isRequired,
+  setUpdate: PropTypes.func.isRequired,
+};
+
 export default TodoItem;

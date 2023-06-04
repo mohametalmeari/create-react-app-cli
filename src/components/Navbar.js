@@ -34,6 +34,7 @@ const Navbar = () => {
       <button
         className="toggle"
         onClick={() => setNavbarOpen((prev) => !prev)}
+        type="button"
       >
         {navbarOpen ? (
           <MdClose style={{ width: '32px', height: '32px' }} />
