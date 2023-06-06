@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "REACT_APP_RENDER_GIT_COMMTL=$RENDER_GIT_COMMIT npm build",
+    "build": "REACT_APP_RENDER_GIT_COMMTL=$RENDER_GIT_COMMIT",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
