@@ -5,7 +5,7 @@
   <img src=".\src\images\icon.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Todos List README</b></h3>
+  <h3><b>Todos List - README</b></h3>
 
 </div>
 
@@ -36,13 +36,11 @@
 
 # 📖 Todos List <a name="about-project"></a>
 
-**Todos List**  is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as completed.
+**Todos List**  is a website that helps you to organize your day. It simply lists the things that you need to do and allows you to mark them as completed.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Our tech stack consisting of React for the front-end.
 
 <details>
   <summary>Client</summary>
@@ -54,13 +52,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Key Features of Todos List Website
-
-
-Includes the following features...
-
 - **Add New Tasks**
-- **Diplay Saved Tasks**
+- **Display Saved Tasks**
 - **Delete Tasks**
 
 
@@ -69,8 +62,6 @@ Includes the following features...
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Open the link bellow:
 
  - [Live Demo Link](https://mohametalmeari.github.io/create-react-app-cli/)
 
@@ -81,17 +72,15 @@ Includes the following features...
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> A new developer can use this project as a guide to creating a list of tasks.
-
 To get a local copy up and running, follow these steps.
-
 
 ### Prerequisites
 
 In order to run this project you need:
 
 ```sh
-  npm start
+  npm install
+  npm run build
 ```
 
 ### Setup
@@ -105,19 +94,17 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-How to open your project in the browser? 
-Double click on HTML file and the HTML file will be open in your browser.
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
 ```sh
-  npm install --save-dev jest
-  npm install --save-dev @babel/plugin-transform-modules-commonjs
-  npm install --save-dev jest-environment-jsdom
-  npm install jquery
-  npm install --save-dev identity-obj-proxy
   npm test
 ```
 
@@ -126,7 +113,6 @@ To run tests, run the following command:
 You can deploy this project using:
 
 ```sh
-  npm install gh-pages
   npm run deploy 
 ```
 
@@ -136,13 +122,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> This project was done by Mohamad.
+👤 **Mohamad**
 
-👤 **Mohamad Almeari**
-
-- GitHub: [@githubhandle](https://github.com/mohametalmeari)
-- Twitter: [@twitterhandle](https://twitter.com/MohametAlmeari)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamet-almeari)
+- GitHub: [@mohametalmeari](https://github.com/mohametalmeari)
+- Twitter: [@MohametAlmeari](https://twitter.com/MohametAlmeari)
+- LinkedIn: [mohamet-almeari](https://www.linkedin.com/in/mohamet-almeari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,15 +159,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Share and Review!
-
 We invite you to share this project with others and provide a favorable review if you find it to be useful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDnpmENTS -->
+<!-- ACKNOWLEDGMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowlednpments"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > The original design idea for this web page was created by Microverse Team.
 
